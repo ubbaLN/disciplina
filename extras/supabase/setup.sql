@@ -34,3 +34,6 @@ drop policy if exists "ajustes do dono" on public.ajustes;
 create policy "ajustes do dono" on public.ajustes
   for all to authenticated
   using (auth.uid() = user_id) with check (auth.uid() = user_id);
+
+-- Acesso pela API para usuários logados (as regras acima continuam valendo).
+grant select, insert, update, delete on public.dias, public.ajustes to authenticated;

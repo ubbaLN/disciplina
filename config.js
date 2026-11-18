@@ -1,6 +1,6 @@
-// Preencha com os dados do seu projeto Supabase (Project Settings > API).
-// Enquanto estiverem vazios, o app roda em "modo local": os dados ficam só neste aparelho.
+// Dados do projeto Supabase "disciplina" (a chave publishable é feita para ficar pública;
+// quem protege os dados é o login + as regras de segurança do banco).
 window.DISCIPLINA_CONFIG = {
-  supabaseUrl: '',      // ex.: 'https://abcdefgh.supabase.co'
-  supabaseAnonKey: ''   // a chave "anon public"
+  supabaseUrl: 'https://zrbgqnzjsodugcpobwcq.supabase.co',
+  supabaseAnonKey: 'sb_publishable_TxqCe-WdzTuS7lFjOrNwEg_eSdHhjft'
 };

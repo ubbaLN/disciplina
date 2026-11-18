@@ -14,9 +14,9 @@
 // =====================================================================
 
 // ---- Preencha com os mesmos dados do config.js do app ----
-const SUPABASE_URL = '';       // ex.: 'https://abcdefgh.supabase.co'
-const SUPABASE_ANON_KEY = '';  // chave "anon public"
-const APP_URL = '';            // endereço do app, ex.: 'https://seunome.github.io/disciplina/'
+const SUPABASE_URL = 'https://zrbgqnzjsodugcpobwcq.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_TxqCe-WdzTuS7lFjOrNwEg_eSdHhjft';
+const APP_URL = 'https://ubbaln.github.io/disciplina/';
 
 // ---- Visual ----
 const C = {
